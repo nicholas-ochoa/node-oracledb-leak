@@ -1,4 +1,8 @@
 ## Usage
+Create the schema (`db/create_schema.sql`) and execute the remaining database scripts in the `db` folder.
+
+Update the database connection string in `src/database.ts` on line 20.
+
 `npm install` and then `npm run start` to begin the test and watch the memory usage. Node.js heap size remains constant and looks normal as far as I can tell. On both Windows and Linux memory usage quickly rises to around 1.5GB to 2GB.
 
 ## Versions
